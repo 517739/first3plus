@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+.w {
+    width: 1325px;
+    margin: 0 0 0 10;
+}  
+
+
+.focus {
+    float: left;
+    width: 832px;
+    height: 510px;
+    margin-left:5px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li {
+    float: left;
+}
+/* 选择所有的偶数的小li */
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+#tuichu{
+	border-radius: 5px;
+	color:#000000;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 0px solid #b1191a;
+    float:left;
+    margin-left:10px;
+}
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #ee4800;
+}
+.nav .navitems {
+    float: left;
+}
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+.dropdown .dd {
+    /* display: none; */
+    width: 210px;
+    height: 465px;
+    background-color: #ed6400;
+    margin-top: 0px;
+    float:left;
+}
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 10px;
+    margin-bottom:10px;
+}
+.dropdown .dd ul li:hover {
+   background-color: #fff;
+}
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: #fff;
+    font-family: 'icomoon';
+    content: '';
+    font-size: 14px;
+}
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+        
+       #photos {
+            width: 9999px;
+            height: 510px;
+            animation: 12s shijue infinite;
+        }
+
+       #photos img {
+            float: left;
+            width: 850px;
+            height: 510px;
+        }
+
+        #slide {
+            width: 850px;
+            height: 510px;
+            overflow: hidden;
+        }
+
+        @keyframes shijue {
+            0% {}
+
+            25% {
+                transform: translateX(0px);
+            }
+
+            30% {
+                transform: translateX(-850px);
+            }
+
+            50% {
+                transform: translateX(-850px);
+            }
+
+            55% {
+                transform: translateX(-1700px);
+            }
+
+            75% {
+                transform: translateX(-1700px);
+            }
+
+            80% {
+                transform: translateX(-2550px);
+            }
+
+            100% {
+                transform: translateX(-2550px);
+            }
+        }
+        
+  .news_con {
+    height: 510px;
+    background: white;
+    float:left;
+    margin-left:20px;
+}
+ 
+.news_title {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    padding-top: 5px;
+    background-color:#2357ba;
+    text-align:center;
+}
+ 
+.news_list {
+    /* background: cornflowerblue; */
+    margin-top: 23px;
+   padding-left:10px;
+}
+ 
+.news_list li {
+    width: 235px;
+    height: 25px;
+    background: url("../images/ico_05.jpg") no-repeat left;
+    list-style:disc;
+    margin-left:10px;
+    }
+ 
+.news_list li a {
+    float: left;
+    font-size: 12px;
+    color: #565656;
+    line-height: 25px;
+}
+ 
+ 
+.news_l {
+    width: 235px;
+    height: 163px;
+    border:2px solid #2357ba;
+    margin-bottom:10px;
+}
+ 
+.footer {
+    height: 150px;
+    width:100%;
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    float:left;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.links {
+    margin-bottom: 15px;
+}
+.links a {
+    margin: 0 3px;
+}
+.copyright {
+    line-height: 20px;
+}
